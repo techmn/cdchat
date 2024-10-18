@@ -4,6 +4,7 @@
 
 Code and dataset files will be available soon.
 
+
 ### Overview
 CDChat is a conversational assistant for RS change description task. We annotate the SYSU-CD dataset to obtain the change text and image pairs for instruction tuning of CDChat. We create change text and image pairs from the two large scale change detection datasets including [SYSU-CD](https://github.com/liumency/SYSU-CD) and [LEVIR-CD](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset).
 
@@ -41,10 +42,10 @@ We use the pretrained projector from LLaVA-v1.5 similar to [GeoChat](https://git
 **Instruction Tuning** 
 
 - Download the cdchat_instruct_file and the image pairs. Place the image pairs folders and cdchat_instruct_file in the same folder. 
-- Update the `--data_path` and `--image_folder` in the file finetune_lora.sh
+- Update the `--data_path` and `--image_folder` in the file `finetune_lora.sh`
 - Start training !!!!
 
-**Note** Our Codebase is inspired from [GeoChat](). Please refer to it for detailed instructions for requirements, installation and training.
+**Note** Our Codebase is inspired from [GeoChat](https://github.com/mbzuai-oryx/GeoChat). Please refer to it for detailed instructions on installation and training.
 
 **Model Weights**
 will be available soon !!!!
