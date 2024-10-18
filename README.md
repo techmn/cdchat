@@ -8,6 +8,13 @@ Code and dataset files will be available soon.
 ### Overview
 CDChat is a conversational assistant for RS change description task. We annotate the SYSU-CD dataset to obtain the change text and image pairs for instruction tuning of CDChat. We create change text and image pairs from the two large scale change detection datasets including [SYSU-CD](https://github.com/liumency/SYSU-CD) and [LEVIR-CD](https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset).
 
+<img width="1096" alt="image" src="images/cdchat_arch.png">
+
+**Annotation Tool**
+
+A custom annotation tool was utilized to annotate the SYSY-CD dataset as shown below:
+
+<img width="1096" alt="image" src="images/cdchat_annotation.png">
 
 
 ### Installation
