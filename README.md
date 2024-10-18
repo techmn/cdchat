@@ -1,6 +1,6 @@
 # CDChat: A Large Multimodal Model for Remote Sensing Change Description
 
-[[Arxiv]](https://arxiv.org/pdf/2409.16261)
+[[Arxiv]](https://arxiv.org/abs/2409.16261)
 
 Code and dataset files will be available soon.
 
