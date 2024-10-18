@@ -11,7 +11,7 @@ CDChat is a conversational assistant for RS change description task. We annotate
 
 
 ### Installation
-- **Clone this repository and navigate to GeoChat folder**
+- **Clone this repository and navigate to cdchat folder**
 ```
 git clone https://github.com/techmn/cdchat.git
 cd cdchat
