@@ -37,7 +37,7 @@ pip install flash-attn --no-build-isolation
 ```
 
 ### Train
-**Pretrain** 
+**Feature Alignment** 
 
 We use the pretrained projector from LLaVA-v1.5 similar to [GeoChat](https://github.com/mbzuai-oryx/GeoChat).
 
@@ -65,7 +65,7 @@ python cdchat/eval/batch_cdchat_vqa.py \
        --model-path /path/to/model \
        --question-file path/to/json/file \
        --answer-file path/to/output/jsonl/file \
-       --image_folder path/to/image/folder/
+       --image-folder path/to/image/folder/
 ```
 
 ### Citation
