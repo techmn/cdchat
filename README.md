@@ -68,6 +68,11 @@ python cdchat/eval/batch_cdchat_vqa.py \
        --image-folder path/to/image/folder/
 ```
 
+Here are few examples of the responses from LMMs for change description task:
+
+<img width="480" alt="image" src="images/example_01.png">
+<img width="480" alt="image" src="images/example_02.png">
+
 ### Citation
 
 ```
