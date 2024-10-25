@@ -2,7 +2,7 @@
 
 [[Arxiv]](https://arxiv.org/abs/2409.16261)
 
-Code and dataset files will be available soon.
+Dataset files will be available soon.
 
 
 ### Overview
