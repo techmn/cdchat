@@ -1,6 +1,6 @@
 # CDChat: A Large Multimodal Model for Remote Sensing Change Description
 
-[[Arxiv]](https://arxiv.org/abs/2409.16261)
+[[Arxiv]](https://arxiv.org/abs/2409.16261) &nbsp; [[IGARSS]](https://ieeexplore.ieee.org/document/11243118)
 
 
 - **Test Captions file of SYSU-CD is uploaded**
@@ -59,8 +59,8 @@ We use the pretrained projector from LLaVA-v1.5 similar to [GeoChat](https://git
 
 **Note** Our Codebase is inspired from [GeoChat](https://github.com/mbzuai-oryx/GeoChat). Please refer to it for detailed instructions on installation and training.
 
-**Model Weights**
-will be available soon !!!!
+![#f04039](https://placehold.co/10x10/f04039/f04039.png) &nbsp;
+Download model weights from [here](https://huggingface.co/mubashir04/cdchat)
 
 ### Evaluation
 We evaluate the CDChat on the test sets of LEVIR-CD and SYSU-CD datasets. Below is the command to evaluate the CDChat on the dataset:
@@ -81,14 +81,13 @@ Here are few examples of the responses from LMMs for change description task:
 ### Citation
 
 ```
-@misc{cdchat_2024,
-      title={CDChat: A Large Multimodal Model for Remote Sensing Change Description}, 
-      author={Mubashir Noman and Noor Ahsan and Muzammal Naseer and Hisham Cholakkal and Rao Muhammad Anwer and Salman Khan and Fahad Shahbaz Khan},
-      year={2024},
-      eprint={2409.16261},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2409.16261}, 
+@INPROCEEDINGS{cdchat_2025,
+  author={Noman, Mubashir and Ahsan, Noor and Naseer, Muzammal and Cholakkal, Hisham and Anwer, Rao Muhammad and Khan, Salman and Khan, Fahad Shahbaz},
+  booktitle={IGARSS 2025 - 2025 IEEE International Geoscience and Remote Sensing Symposium}, 
+  title={CDCHAT: A Large Multimodal Model for Remote Sensing Change Description}, 
+  year={2025},
+  pages={7033-7037},
+  doi={10.1109/IGARSS55030.2025.11243118}
 }
 ```
 ### Acknowledgements
